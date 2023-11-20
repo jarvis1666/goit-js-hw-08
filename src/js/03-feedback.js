@@ -34,10 +34,8 @@ form.addEventListener('submit', event => {
     message: messageInput.value,
   };
 
-  // Log the form data to the console
   console.log(formData);
 
-  // Clear the form and local storage
   form.reset();
   localStorage.removeItem('feedback-form-state');
 });
